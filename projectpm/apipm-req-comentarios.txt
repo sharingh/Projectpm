@@ -26,6 +26,7 @@ Como consideraciones generales que se omitieron al  ser un ejemplo:
 - Permisos
 - Host
 - Zona horaria / Pais / Region
+- En caso de querer desplegarlo habría que modificar ciertas partes del codigo
 
 
 Otras consideraciones:
