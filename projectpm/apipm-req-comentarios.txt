@@ -1,0 +1,48 @@
+Requirements / Requisitos necesarios:
+
+- Python
+
+- Django
+
+- Django Rest Framework
+
+- Postman / curl / httpie o algun otro
+
+————————————————————————————————————————————————
+
+El proyecto de este ejemplo esta realizado en Django Rest Framework Python
+
+La API se probo con postman y funciona correctamente, los (GET) también se pueden ver por navegador
+
+* También se podría probar con curl o algun otro
+
+—————————————————————————————————
+
+Como consideraciones generales que se omitieron al  ser un ejemplo:
+
+- Manejo de errores
+- Seguridad
+- Autenticación
+- Permisos
+- Host
+- Zona horaria / Pais / Region
+
+
+Otras consideraciones:
+
+
+- Se dejaron los (GET) en algunas ocasiones para poder probar que la API funciona correctamente
+
+- Para comprobar que la medida de consumo enviada sea positiva se uso un (if) en campo (MeasurementCo),  para el ejemplo sirve, pero esto al mismo tiempo causara error si envía las mediciones (sin datos (vacío) o un numero decimal con coma (,)) ya que los números deben utilizar punto (.) en caso de ser decimales
+
+- Quizas los tipos de datos declarados no correspondan pero para eso tendría que conocer mejor el proyecto
+
+- Hay cosas que se podrían mejorar y/o agregar conociendo mejor el proyecto
+
+- Tal vez el ejemplo tenga algunas falencias en el código o en la forma de testear la api, pero se realizo de esa manera para poder darle versatilidad al uso de la misma (ya que se desconocen los detalles del proyecto)
+
+- Para enviar datos también se puede hacer uso del método (PATCH), en el ejemplo se uso (POST)
+
+- También se podría mejorar el codigo y las url’s de acceso a los distintos endpoints para que quede mas prolijo pero para realizar este ejemplo sirve como esta y como comente anteriormente se realizo de esta manera para poder darle mas versatilidad a las url’s de los endpoints, porque quizás no en todos los casos convenga acceder de una manera en particular a los endpoints sino que quizás quede mas cómodo hacer varios formatos de url’s para consultar los endpoints
+
+Gracias!
