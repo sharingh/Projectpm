@@ -1,0 +1,31 @@
+
+Pasos para poder probar:
+
+————————————————————————————————————————————————
+
+* Se puede crear un nuevo entorno para mayor comodidad
+
+-----------------------------------
+
+- pip install django
+
+- pip install djangorestframework
+
+Others.
+
+- pip install markdown
+
+- pip install django-filter
+
+- pip install django-cors-headers
+
+-----------------------------------
+
+“Asegurarse estar dentro de la carpeta del proyecto y ejecutar el siguiente comando*”
+
+- Correr servidor desde el terminal: *(python manage.py runserver)
+
+- Si todo esta bien saldrá la url del servidor local, por ej. (http://127.0.0.1:'port')
+
+
+————————————————————————————————————————————————
