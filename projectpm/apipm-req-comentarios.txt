@@ -46,6 +46,6 @@ Otras consideraciones:
 
 - También se podría mejorar el codigo y las url’s de acceso a los distintos endpoints para que quede mas prolijo pero para realizar este ejemplo sirve como esta y como comente anteriormente se realizo de esta manera para poder darle mas versatilidad a las url’s de los endpoints, porque quizás no en todos los casos convenga acceder de una manera en particular a los endpoints sino que quizás quede mas cómodo hacer varios formatos de url’s para consultar los endpoints
 
-- Se crearon 3 endpoints no pedidos en el ejemplo pero se dejaron para una prueba mas completa
+- Se crearon 3 endpoints no pedidos en el ejemplo pero se dejaron para una prueba mas completa estan detallados en el (apidoc) 
 
 Gracias!
